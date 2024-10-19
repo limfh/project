@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+   }
+
+.head-ul > img {
+    padding: 20px;
+}
+
+.head-ul-u {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    margin-left: 170px;
+}
+
+.head-ul-u > li {
+    margin: 10px;
+    padding: 20px;
+    
+}
+.head-ul-u > li > a{
+    text-decoration: 0;
+    color: #00402F;
+
+}
+.logbut {
+ margin-left: 50px;
+}
+.Sign-Button {
+    background-color: #00402F;
+    line-height: 75px; 
+    width: 240px;
+    margin-left: 50px;
+    margin-left: 10px;
+}
+.green{
+    color: white;
+    text-decoration: 0;
+    padding-left: 10px;
+}
+
+.Start-Screen {
+    display: flex;
+    background-color: #668C82;
+    padding-top: 60px;
+    padding-left: 140px;
+    height: 675px;
+    max-width: 1450px;
+}
+.dev {
+    color: white;
+    font-size: 50px;
+    padding-left: 70px;
+    padding-top: 60px;
+}
+.dev-2 {
+    color: white;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.tex {
+    list-style: none;
+}
+.tex > li {
+    color: white;
+    padding-top: 25px;
+    padding-left: 95px;
+}
+.Button {
+    margin-top: 40px;
+}
+.But {
+    text-decoration: 0;
+    color: #00402F;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.Second-Screen {
+    display: flex;
+    justify-content: space-around;
+    background-color:#849ACB;
+    padding-top: 60px;
+    padding-left: 140px;
+    height: 500px;
+    max-width: 1450px;
+}
+.mis {
+    color: white;
+    padding-top: 60px;
+   font-size: 15px;
+}
+
+.txt { 
+    padding-top: 40px;
+    max-width: 565px;
+    color: white;
+    font-size: 40px;
+}
+.Second-Screen > div > img {
+    width: 400px;
+    height: 400px;
+    padding-right: 40px;
+}
+.Button1 {
+    margin-top: 40px;
+}
+.But1 {
+    text-decoration: 0;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    background-color: #849ACB;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1px 30px;
+}
+.inf { 
+    padding-top: 180px;
+    max-width: 30px;
+    max-height: 15px;
+}
+
+.Third-Screen {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 140px;
+    height: 500px;
+    max-width: 1450px;
+    background-color: #FFF4E3;
+}
+.Third-Screen > img {
+    height: 400px;
+}
+.text-one {
+    padding-left: 70px;
+    width: 490px;
+    height: 165px;
+    font-size: 45px;
+    color: #00402F;
+}
+.text-two {
+    padding-left: 70px;
+    color: #00402F;
+    width: 470px;
+}
+.Button2 {
+    margin-top: 40px;
+}
+.But2 {
+    text-decoration: 0;
+    color: white;
+    border-radius: 80px;
+    background-color: #00402F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1px 50px;
+}
+.Fourth-Screen {
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 140px;
+    height: 400px;
+    max-width: 1450px;
+    text-align: center;
+}
+.Fourth-Screen > div > p {
+    font-size: 40px;
+    width: 690px;
+    color: #00402F;
+    padding-left: 140px;
+}
+.Fourth-Screen > div > img {
+    padding-left: 140px;
+    padding-top: 90px;
+}
+.erin {
+    font-size: 20px;
+    color: #00402F;
+    padding-left: 140px;
+}
+.Fifth-Screen {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 140px;
+    height: 400px;
+    max-width: 1450px;
+    text-align: center;
+}
+.Fifth-Screen > div > img {
+    height: 400px;
+}
+.Text-div {
+    padding-top: 90px;
+}
+.text-first {
+    padding-left: 70px;
+    width: 490px;
+    font-size: 40px;
+    color: #00402F;
+    text-align: left;
+}
+.text-second {
+    text-align: left;
+    padding-left: 70px;
+    color: #00402F;
+    width: 460px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.inf1 {
+    max-width: 30px;
+    max-height: 15px;
+    padding-left: 650px;
+    padding-top: 80px;
+}
+.Fifth-Screen2 {
+    display:flex;
+    padding-top: 100px;
+    padding-left: 140px;
+    height: 400px;
+    max-width: 1450px;
+}
+.text-one1 {
+    padding-top: 190px;
+    padding-left: 70px;
+    width: 540px;
+    height: 70px;
+    font-size: 35px;
+    color: #00402F;
+}
+.text-two2 {
+    padding-left: 70px;
+    color: #00402F;
+    width: 445px;
+    font-size: 16px;
+}
+.veschi {
+    padding-left: 50px;
+    height: 500px;
+}
+.inf2 {
+    max-width: 30px;
+    max-height: 15px;
+    padding-left: 650px;
+    padding-top: 150px;
+}
+.Flowers {
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+.Fifth-Screen3 {
+    display:flex;
+    padding-top: 100px;
+    padding-left: 140px;
+    height: 400px;
+    max-width: 1450px;
+}
+.text-first {
+    padding-top: 110px;
+    padding-left: 70px;
+    width: 450px;
+    font-size: 40px;
+    color: #00402F;
+    text-align: left;
+}
+.text-second {
+    text-align: left;
+    padding-left: 70px;
+    color: #00402F;
+    width: 410px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.inf3 {
+    max-width: 30px;
+    max-height: 25px;
+    padding-left: 650px;
+    padding-top: 150px;
+}
+.Sixth-Screen {
+    display:flex;
+    padding-top: 100px;
+    padding-left: 50px;
+    height: 400px;
+    max-width: 1450px;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-bottom: 80px;
+}
+.Sixth-Screen > div > img {
+    width: 320px;
+}
+.Seventh-Screen {
+    height: 500px;
+    max-width: 1450px;
+    background-color: #522840;
+    text-align: center;
+}
+.Seventh-Screen > div > img {
+    width: 50px;
+    padding-top: 100px;
+}
+.Seventh-Screen > div > p {
+    padding-top: 50px;
+    color: white;
+    font-size: 29px;
+width: 611px;
+padding-left: 300px;
+}
+.Button3 {
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.But3 {
+    text-decoration: 0;
+    color: #00402F;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 50px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.Eighth-Screen {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    max-width: 1450px;
+}
+.inf4 {
+    max-width: 30px;
+    max-height: 25px;
+
+    padding-top: 50px;
+}
+.Eighth-Screen > div {
+    padding-top: 50px;
+}
+.Text-2 {
+    padding-left: 150px;
+}
+.text-one2 {
+    padding-top: 30px;
+    padding-left: 162px;
+    width: 440px;
+    height: 70px;
+    font-size: 20px;
+    color: #00402F;
+}
+.text-one3 {
+    padding-top: 30px;
+    padding-left: 162px;
+    width: 430px;
+    height: 70px;
+    font-size: 15px;
+    color: #00402F;
+}
+.text-two1 {
+    padding-left: 70px;
+    color: #00402F;
+    width: 405px;
+    font-size: 15px;
+}
+.text-two3 {
+    padding-left: 142px;
+    color: #00402F;
+    width: 445px;
+    font-size: 15px;
+}
